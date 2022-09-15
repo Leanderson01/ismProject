@@ -52,7 +52,7 @@ export default function ModalReading({ isOpen, children, setIsOpen }: Props) {
               aria-modal="true"
               aria-labelledby="modal-headline"
             >
-              <div className="flex flex-col px-4 pt-5 pb-4 bg-white sm:p-6 sm:pb-4 gap-10">
+              <div className="flex flex-col px-4 pt-5 pb-4 bg-gray-700 sm:p-6 sm:pb-4 gap-10">
                 {/* parte ler */}
                 <div className="sm:flex sm:items-start">
                   <div>
@@ -62,7 +62,7 @@ export default function ModalReading({ isOpen, children, setIsOpen }: Props) {
                 <div className="space-y-4 lg:grid justify-items-end">
                   <div className="grid grid-cols-1 lg:w-36 content-evenly">
                     <button
-                      className="px-4 py-2 text-white bg-orange-500 rounded hover:bg-orange-600"
+                      className="px-4 py-2 App-link border border-white rounded-md p-2 hover:bg-slate-600 delay-75 transition-all"
                       onClick={() => setIsOpen(false)}
                     >
                       Fechar
